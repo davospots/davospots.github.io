@@ -1,0 +1,137 @@
+.container{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+/*navbar styles */
+.Nav-bar{
+    display: flex;
+    position: fixed;
+    padding: 20px;
+    background-color: red;
+    padding-left: 200px;
+    padding-right: 270px;
+    
+}
+
+.left-side .logo img{
+    width: 60px;
+    height: auto;
+    padding-right: 20px;
+    display: block;
+    
+}
+ .left-side .name{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 22px;
+    font-size: 18px;
+    color: yellow;
+    
+}
+.logo{
+    display: flex;
+}
+.right-side{
+    display: flex;
+    
+}
+.right-side .nav-links{
+    padding-left: 200px;
+    padding-top: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+   
+}
+.nav-links a{
+    text-decoration: none;
+    color:  yellow;
+    transition: color 0.5s;
+    border-bottom: solid transparent;
+    transition: border-bottom 0.5s;
+    
+}
+.nav-links a:hover {
+    color:springgreen;
+    border-bottom: solid black;
+}
+
+
+/*Content section styles*/
+
+
+#banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 25%;
+    padding-top: 150px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: solid;
+    padding: 20px;
+    
+    
+}
+  
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    
+}  
+.introduction p{
+    text-align: center;
+    font-size: 20px;
+    
+    
+    
+}
+.important{
+    font-weight: bold;
+}    
+.projects{
+    background-image: url(/Images/rednyellow.jpg);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.projects ul li{
+    list-style: none;
+}
+.projects> ul> li> a{
+    color: white;
+    text-transform: uppercase;
+    transition: color 0.5s;
+}
+.projects ul li a:hover{
+    color: yellow;
+}
+
+form {
+    text-align: center;
+}
+.footer-icons ul li {
+    list-style: none;
+    padding: 45px;
+}
+.footer-icons ul{
+    display: flex;
+    justify-content: center;
+    
+}
